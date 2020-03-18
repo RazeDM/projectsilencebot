@@ -38,3 +38,5 @@ async def on_ready():
         print('Обновляем информацию')
 
 # token = os.environ.get('BOT_TOKEN')
+
+bot.run(str(token))
